@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black">
+    <nav class="bg-black mx-auto w-10/12 h-20 text-white flex justify-between">
+        <div class="flex">
+            <div class="mx-auto py-4 px-6">
+                <a href="https://www.airbnb.com/" class="font-bold text-2xl text-white"><img src="airbnb.png" alt="airbnb" width="90" height="90"></a>
+            </div>
+        </div>
+        <div>
+            <ul class="space-x-7">
+                <li class="inline"><a href="https://www.airbnb.com/" class="text-sm text-white hover:underline">Places to stay</a></li>
+                <li class="inline"><a href="" class="text-sm text-white hover:underline"> Experiences</a></li>
+                <li class="inline"><a href="" class="text-sm text-white hover:underline">Online Experiences</a></li>
+            </ul>
+        </div>
+        <div class="space-x-4">
+            <a href="https://www.airbnb.com/host/homes" class="text-sm text-white hover:underline">Become a Host</a>
+            <a href="" class="text-lg text-white hover:underline">&#1012;</a>
+            <button class="rounded-full bg-white text-black hover:underline py-2 px-4">airbnb</button>
+        </div>
+    </nav>
+        <br>
+    <div class="bg-white mx-auto w-1/2 h-20 rounded-full">
+        <form class="no-border text-sm grid grid-rows-2 grid-flow-col gap-1 divide-x divide-darkgrey py-0 px-10">
+            <div><label for="location" class="font-bold">Location:</label></div>
+            <div><input type="text" id="location" name="location" value="Where are you going?"></div>
+            <div><label for="check in" class="font-bold">Check in:</label></div>
+            <div><input type="date" id="checkin" name="checkin"></div>
+            <div><label for="checkout" class="font-bold">Check out:</label></div>
+            <div><input type="date" id="checkout" name="checkout"></div>
+            <div><label for="guest "class="font-bold">Guests:</label></div>
+            <div><input type="text" id="guest" name="guest" value="Add guests"></div>
+            <div><button id="button" type="submit" class="bg-red-500 rounded-full text-white font-bold hover:underline py-2 px-4">Search</button></div>
+        </form>
+    </div>
+        <br>
+    <div class="mx-auto bg-red-500 rounded w-10/12 h-96 flex flex-col items-center justify-center">
+        <p class="text-center text-white font-bold text-5xl pt-12">Help house 100,000 refugees fleeing Ukraine</p>
+        <br>
+        <button class="flex justify-center py-2 px-4 border-2 border-white rounded bg-red-500 text-white hover:underline"><a href="https://www.airbnb.org/help-ukraine">Learn More</a></button>
+    </div>
+</body>
+</html>
